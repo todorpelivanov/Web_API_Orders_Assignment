@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkPlus_Orders_Assignment", "LinkPlus_Orders_Assignment\LinkPlus_Orders_Assignment.csproj", "{D267F9C1-B139-4E1C-B250-2DAA990C6A52}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkPlus_Orders_Assignment.Domain", "LinkPlus_Orders_Assignment.Domain\LinkPlus_Orders_Assignment.Domain.csproj", "{3EBD6557-7D32-4C26-A416-F8F836108A9D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkPlus_Orders_Assignment.DataAccess", "LinkPlus_Orders_Assignment.DataAccess\LinkPlus_Orders_Assignment.DataAccess.csproj", "{D6ED436A-290D-417A-B0E4-F42D1A1BC2A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkPlus_Orders_Assignment.Helpers", "LinkPlus_Orders_Assignment.Helpers\LinkPlus_Orders_Assignment.Helpers.csproj", "{AD38D226-40B8-4439-89CC-0DDEDE496063}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkPlus_Orders_Assignment.Dtos", "LinkPlus_Orders_Assignment.Dtos\LinkPlus_Orders_Assignment.Dtos.csproj", "{D15D9E1D-25DA-4D3B-8166-D5975F9C4AA6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkPlus_Orders_Assignment.Mappers", "LinkPlus_Orders_Assignment.Mappers\LinkPlus_Orders_Assignment.Mappers.csproj", "{AED55D82-60CD-4232-BB35-F2D9F7372539}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkPlus_Orders_Assignment.Services", "LinkPlus_Orders_Assignment.Services\LinkPlus_Orders_Assignment.Services.csproj", "{99319D0F-FEA2-4145-8A7B-47A586359687}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkPlus_Orders_Assignment.Shared", "LinkPlus_Orders_Assignment.Shared\LinkPlus_Orders_Assignment.Shared.csproj", "{44FE28E1-6EFF-4674-ADA3-D9930495D01D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkPlus_Orders_Assignment.Tests", "LinkPlus_Orders_Assignment.Tests\LinkPlus_Orders_Assignment.Tests.csproj", "{60A6CAE1-00C3-4FBE-91D7-0253E2AC545A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D267F9C1-B139-4E1C-B250-2DAA990C6A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D267F9C1-B139-4E1C-B250-2DAA990C6A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D267F9C1-B139-4E1C-B250-2DAA990C6A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D267F9C1-B139-4E1C-B250-2DAA990C6A52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EBD6557-7D32-4C26-A416-F8F836108A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EBD6557-7D32-4C26-A416-F8F836108A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EBD6557-7D32-4C26-A416-F8F836108A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EBD6557-7D32-4C26-A416-F8F836108A9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6ED436A-290D-417A-B0E4-F42D1A1BC2A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6ED436A-290D-417A-B0E4-F42D1A1BC2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6ED436A-290D-417A-B0E4-F42D1A1BC2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6ED436A-290D-417A-B0E4-F42D1A1BC2A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD38D226-40B8-4439-89CC-0DDEDE496063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD38D226-40B8-4439-89CC-0DDEDE496063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD38D226-40B8-4439-89CC-0DDEDE496063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD38D226-40B8-4439-89CC-0DDEDE496063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D15D9E1D-25DA-4D3B-8166-D5975F9C4AA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D15D9E1D-25DA-4D3B-8166-D5975F9C4AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D15D9E1D-25DA-4D3B-8166-D5975F9C4AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D15D9E1D-25DA-4D3B-8166-D5975F9C4AA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AED55D82-60CD-4232-BB35-F2D9F7372539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED55D82-60CD-4232-BB35-F2D9F7372539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED55D82-60CD-4232-BB35-F2D9F7372539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED55D82-60CD-4232-BB35-F2D9F7372539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99319D0F-FEA2-4145-8A7B-47A586359687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99319D0F-FEA2-4145-8A7B-47A586359687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99319D0F-FEA2-4145-8A7B-47A586359687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99319D0F-FEA2-4145-8A7B-47A586359687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44FE28E1-6EFF-4674-ADA3-D9930495D01D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44FE28E1-6EFF-4674-ADA3-D9930495D01D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44FE28E1-6EFF-4674-ADA3-D9930495D01D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44FE28E1-6EFF-4674-ADA3-D9930495D01D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60A6CAE1-00C3-4FBE-91D7-0253E2AC545A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60A6CAE1-00C3-4FBE-91D7-0253E2AC545A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60A6CAE1-00C3-4FBE-91D7-0253E2AC545A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60A6CAE1-00C3-4FBE-91D7-0253E2AC545A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B56A493F-2121-40EB-8C0A-031BA60B591A}
+	EndGlobalSection
+EndGlobal
